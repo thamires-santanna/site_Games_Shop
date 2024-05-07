@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games Shop - A sua loja de games</title>
+    <title>La Dolce Vita - Sabores que encantam, momentos que inspiram</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Games Shop</h1>
+            <h1>La Dolce Vita</h1>
         <nav>
             <ul>
                 <li>
                     <a href="#about">Sobre a loja</a>
+                </li>
+                <li>
+                    <a href="#products">Nossos Produtos</a>
+                </li>
+                <li>
+                    <a href="#social-media">Redes Socias</a>
                 </li>
                 <li>
                     <a href="#contact">Contato</a>
@@ -25,9 +31,8 @@
         </nav>
     </header>
     <section id="about">
-        <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja" />
-        <div>
+        <div class="introduction">
+            <img class="store" src="./images/loja.jpg" alt="Interior da loja" />
             <h2>Sobre a loja</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quis ex facere earum praesentium laboriosam inventore? Delectus ipsa minus aliquam soluta maiores iusto, consequatur hic earum mollitia a maxime pariatur.
@@ -35,16 +40,51 @@
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod commodi magnam quisquam quia excepturi natus placeat, sunt qui soluta vero, perferendis maiores dolorum nemo! Optio consequuntur natus illum maxime dignissimos?
             </p>
-            <ul class="brands-list">
-                <li><img src="./images/nintendo.png" alt="Nintendo"></li>
-                <li><img src="./images/xbox.png" alt="Xbox"></li>
-                <li><img src="./images/playstation.png" alt="Playstation"></li>
+        </div>
+    </section>
+    <section id="products">
+        <div class="products">
+            <h2>Nossos Produtos</h2>
+                    <h3>Bolos</h3>
+                    <img class="cake" src="./images/bolo (2).jpg" alt="bolo decorado" />
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vel ea sunt aliquid id nesciunt expedita. Aliquid ab laboriosam perferendis sunt laborum. Vero, dicta autem praesentium quo eius voluptatem accusamus!
+                    </p>
+                    <h3>Cupcakes</h3>
+                    <img class="cupcake" src="./images/cupcakes.jpg" alt="cupcake decorado" />
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus a, cum excepturi similique sunt laudantium commodi eos repudiandae eaque nihil totam beatae quo earum alias modi placeat, quibusdam sed praesentium?
+                    </p>
+                    <h3>Macarons</h3>
+                    <img class="Macarons" src="./images/arranjo-de-macarons-delicioso.jpg" alt="macarons coloridos" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas deserunt itaque officiis voluptatum quo, totam ipsum ab suscipit soluta quam debitis! Porro quas aperiam autem, quos culpa ipsum earum!
+                    </p>
+                    <h3>Cookies</h3>
+                    <img class="cookies" src="./images/delicioso-arranjo-de-biscoitos.jpg" alt="biscoitos" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem ipsa accusamus aut necessitatibus ut aliquam, debitis illum. Itaque error cupiditate beatae totam laborum quidem nam quae, officia deserunt porro!
+                    </p>
+                    <h3>Donuts</h3>
+                    <img class="donuts" src="./images/donuts-deliciosos-gerados-por-ai.jpg" alt="donuts coloridos" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum et, neque amet iusto vero quia aut beatae totam deserunt, dolorem porro reprehenderit corporis molestiae culpa consequuntur temporibus dolor maxime?
+                    </p>
+        </div>
+    </section>
+    <section id="social-midia">
+        <div class="social-midia">
+            <h2>Nos siga para ficarem por dentro das nossas deliciosas novidades</h2>
+            <ul class="logos-list">
+                <li><img src="./images/instagram.png" alt="Instagram"></li>
+                <li><img src="./images/facebook.png" alt="Facebook"></li>
+                <li><img src="./images/youtube.png" alt="YouTube"></li>
             </ul>
         </div>
     </section>
     <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
+        <div class="contact">
+            <h2>Contatos</h2>
             <div class="contact-methods">
                 <div>
                     <h3>Fale conosco</h3 >
@@ -57,29 +97,18 @@
                         </form>
                 </div>
                 <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="./images/instagram.png" alt="Logo do Instagram"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/facebook.png" alt="Logo do Facebook"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Visite nosso canal no YouTube">
-                                <img src="./images/youtube.png" alt="Logo do YouTube"/>
-                            </a>
-                        </li>
-                    </ul>
+                    <h3>Central de Vendas</h3>
+                    <p>
+                        Telefone: (00) 4321-1234
+                    </p>
+                    <p>
+                        Whatsapp: (00)9876-6789
+                    </p>
                 </div>
                 <div>
                     <h3>Venha até nós</h3>
                     <p>
-                        Rua JavaScript n° 124, Vila HTML - Rio de Janeiro - RJ
+                        Avenida das Delícias, 567 - Vila do Açúcar, Doceville
                     </p>
                 </div>
             </div>
@@ -88,9 +117,10 @@
     <footer>
         <div class="container">
             <p>
-                &copy; Games Shop - Todos os direitos reservados - 2024
+                &copy; La Dolce Vita - Todos os direitos reservados - 2024 (Doceria fictícia - Imagens apenas ilustrativas)
             </p>
         </div>
     </footer>
+    </section>
 </body>
 </html>
